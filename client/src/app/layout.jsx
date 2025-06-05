@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Heart Health Predictor",
+  title: "SecureHeart",
   keywords: [
     "Heart Health",
     "Cardiovascular Disease",
@@ -39,6 +39,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+  
       </body>
     </html>
   );
